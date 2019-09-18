@@ -1,0 +1,13 @@
+{
+    "name": "extended_site_information",
+    "type": "drupal-module",
+    "description": "Override system site settings.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/extended_site_information",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/extended_site_information",
+        "source": "http://cgit.drupalcode.org/extended_site_information",
+    },
+}

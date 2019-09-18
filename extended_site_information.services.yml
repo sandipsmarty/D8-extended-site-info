@@ -1,0 +1,7 @@
+# Services for extended_site_information module.
+services:
+  describe_site.route_subscriber:
+    # Class for altering site information setting route.
+    class: 'Drupal\extended_site_information\Routing\ExtendedSiteInformationRouteSubscriber'
+    tags:
+      - { name: event_subscriber }

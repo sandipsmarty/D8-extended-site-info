@@ -1,0 +1,9 @@
+# Routes for extended_site_information module.
+extended_site_information.page_json:
+  path: '/page_json/{sitekey}/{node}'
+  defaults:
+    _controller: '\Drupal\extended_site_information\Controller\ExtendedSiteInformationController::nodeToJson'
+    _title: 'Node to JSON'
+  methods: [GET]
+  requirements:
+    _custom_access: '\Drupal\extended_site_information\Controller\ExtendedSiteInformationController::access'
